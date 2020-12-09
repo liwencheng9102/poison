@@ -41,7 +41,7 @@
 			<text>￥{{item.goodsPrice}}</text>
 		</view>
 		<view class="cart">
-			<image src="../../image/car.png"></image>
+			<image src="../../image/添加.png"></image>
 		</view>
 	</view>
 </view>
