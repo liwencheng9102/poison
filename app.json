@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/catagery/catagery",
+    "pages/cart/cart",
+    "pages/mine/mine"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#69C3AA",
+    "navigationBarTitleText": "Poison",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#ABABAB",
+    "selectedColor": "#69C3AA",
+    "borderStyle": "white",
+    "backgroundColor": "white",
+    "list": [{
+        "pagePath": "pages/index/index",
+        "iconPath": "image/首页.png",
+        "selectedIconPath": "image/审批.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/catagery/catagery",
+        "iconPath": "image/联系人.png",
+        "selectedIconPath": "image/审批.png",
+        "text": "通讯录"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "image/审批.png",
+        "selectedIconPath": "image/审批.png",
+        "text": "审批"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "image/关闭.png",
+        "selectedIconPath": "image/关闭.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

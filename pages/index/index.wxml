@@ -1,0 +1,48 @@
+<view class="main">
+	<swiper autoplay="true" interval="1000" indicator-dots="true">
+		<block wx:for="{{imgs}}" wx:key="*this">
+			<swiper-item>
+				<view>
+					<image src="{{item}}" mode="widthFix"></image>
+				</view>
+			</swiper-item>
+		</block>
+	</swiper>
+</view>
+
+<!-- 分类 -->
+<view class="category clearfix">
+	<view class="item" wx:for="{{iconArray}}" wx:key="*this">
+		<view class="icon_warp">
+			<image src="{{item.iconUrl}}"></image>
+			<text>{{item.iconText}}</text>
+		</view>
+	</view>
+</view>
+<!-- 分类 end -->
+
+<view class="common_title">
+	<text>商品列表</text>
+</view>
+
+<!-- 商品列表 -->
+<view class="goods_list" wx:for="{{goodsList}}" wx:key="*this">
+	<view class="left">
+		<image src="{{item.goodsImage}}"></image>
+	</view>
+	<view class="right">
+		<view class="goods_name">
+			<text>{{item.goodsName}}</text>
+		</view>
+		<view class="goods_address">
+			<text>{{item.goodsAddress}}</text>
+		</view>
+		<view class="goods_price">
+			<text>￥{{item.goodsPrice}}</text>
+		</view>
+		<view class="cart">
+			<image src="../../image/car.png"></image>
+		</view>
+	</view>
+</view>
+<!-- 商品列表 end -->
