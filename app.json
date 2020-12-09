@@ -1,8 +1,8 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/catagery/catagery",
-    "pages/cart/cart",
+    "pages/contact/contact",
+    "pages/workbench/workbench",
     "pages/mine/mine"
   ],
   "window": {
@@ -25,13 +25,13 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/catagery/catagery",
+        "pagePath": "pages/contact/contact",
         "iconPath": "image/联系人.png",
         "selectedIconPath": "image/联系人 (1).png",
         "text": "通讯录"
       },
       {
-        "pagePath": "pages/cart/cart",
+        "pagePath": "pages/workbench/workbench",
         "iconPath": "image/审批.png",
         "selectedIconPath": "image/审批 (1).png",
         "text": "审批"
